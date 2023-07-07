@@ -1,0 +1,91 @@
+.top{
+    display: flex;
+   
+}
+#div{
+    margin: 110px;
+    font-weight: bolder;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.button{
+    font-weight: 1000;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(to left, tomato , orange);
+    padding: 30px 60px;
+    border-radius: 40px;
+    text-decoration: none;   
+}
+.para-font{
+    font-size: 20px;
+}
+span{
+    color: orange;
+}
+h1{
+    font-size: 400%;
+}
+.middle{
+    display: flex;
+    margin-top: 40px;
+    font-size: 150% ;
+    background-image: url(7.png); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.middle img{
+    width: auto;
+    height: 100%;
+}
+#div2{
+    margin: 100px;
+}
+.Recipies-header{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+}
+.Recipies{
+    display: flex;
+    
+}
+.box{
+    
+    width: 26.667%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px grey;
+    
+    
+}
+.box img {
+    width:95%;
+    height: 55%;
+    display: block;
+    border-radius: 20px;
+    margin: 10px;
+ }
+ .social{
+    display: flex;
+    margin: 10%;
+    filter: drop-shadow(5px 5px 5px grey);
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px grey;
+ }
+.text-box{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+footer{
+    text-align: center;
+    padding: 60px;
+    background-color: black;   
+}
